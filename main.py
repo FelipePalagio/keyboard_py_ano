@@ -11,9 +11,10 @@ display = pygame.display.set_mode((400, 600))
 pygame.display.set_caption('TECALDOOOUUUBS')
 bg = pygame.image.load("pipi.png")
 white = (255, 255, 255)
+black = (0, 0, 0)
 
 while True:
-    # Background
+ 
     display.fill((white))
     display.blit(bg, (0, 0))
 
